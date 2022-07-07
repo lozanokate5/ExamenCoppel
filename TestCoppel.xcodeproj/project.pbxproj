@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330E8D8B1C79CEAD0219DAEA /* Pods_TestCoppel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113F1F71FA04DFD663FB2474 /* Pods_TestCoppel.framework */; };
+		CFBA722B28773B48009D1F3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA722A28773B48009D1F3B /* AppDelegate.swift */; };
+		CFBA722D28773B48009D1F3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA722C28773B48009D1F3B /* SceneDelegate.swift */; };
+		CFBA722F28773B48009D1F3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA722E28773B48009D1F3B /* LoginViewController.swift */; };
+		CFBA723228773B48009D1F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBA723028773B48009D1F3B /* Main.storyboard */; };
+		CFBA723428773B4A009D1F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBA723328773B4A009D1F3B /* Assets.xcassets */; };
+		CFBA723728773B4A009D1F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBA723528773B4A009D1F3B /* LaunchScreen.storyboard */; };
+		CFBA723F28773D3E009D1F3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFBA723E28773D3E009D1F3B /* GoogleService-Info.plist */; };
+		CFBA7241287745A0009D1F3B /* Servicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA7240287745A0009D1F3B /* Servicio.swift */; };
+		CFBA7243287745AA009D1F3B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA7242287745AA009D1F3B /* Model.swift */; };
+		CFBA724528774648009D1F3B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA724428774648009D1F3B /* SignUpViewController.swift */; };
+		CFBA724928774BBD009D1F3B /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA724828774BBD009D1F3B /* PopularViewController.swift */; };
+		CFBA724D28774C6E009D1F3B /* PopularViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA724C28774C6E009D1F3B /* PopularViewCell.swift */; };
+		CFBA724F2877548C009D1F3B /* DetailPopularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA724E2877548C009D1F3B /* DetailPopularVC.swift */; };
+		CFBA727228777FEF009D1F3B /* PerfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA727128777FEF009D1F3B /* PerfilVC.swift */; };
+		CFBA727428778025009D1F3B /* PerfilDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA727328778025009D1F3B /* PerfilDetailViewCell.swift */; };
+		CFBA727A287792ED009D1F3B /* ModelTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA7279287792ED009D1F3B /* ModelTop.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		113F1F71FA04DFD663FB2474 /* Pods_TestCoppel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCoppel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7329207C592A2BEA093D8A19 /* Pods-TestCoppel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCoppel.debug.xcconfig"; path = "Target Support Files/Pods-TestCoppel/Pods-TestCoppel.debug.xcconfig"; sourceTree = "<group>"; };
+		CFBA722728773B48009D1F3B /* TestCoppel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoppel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBA722A28773B48009D1F3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFBA722C28773B48009D1F3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFBA722E28773B48009D1F3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CFBA723128773B48009D1F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFBA723328773B4A009D1F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFBA723628773B4A009D1F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFBA723828773B4A009D1F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBA723E28773D3E009D1F3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFBA7240287745A0009D1F3B /* Servicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servicio.swift; sourceTree = "<group>"; };
+		CFBA7242287745AA009D1F3B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CFBA724428774648009D1F3B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CFBA724828774BBD009D1F3B /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		CFBA724C28774C6E009D1F3B /* PopularViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewCell.swift; sourceTree = "<group>"; };
+		CFBA724E2877548C009D1F3B /* DetailPopularVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPopularVC.swift; sourceTree = "<group>"; };
+		CFBA727128777FEF009D1F3B /* PerfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilVC.swift; sourceTree = "<group>"; };
+		CFBA727328778025009D1F3B /* PerfilDetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilDetailViewCell.swift; sourceTree = "<group>"; };
+		CFBA7279287792ED009D1F3B /* ModelTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTop.swift; sourceTree = "<group>"; };
+		E2B74C8EC1F3A27F8722AB46 /* Pods-TestCoppel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCoppel.release.xcconfig"; path = "Target Support Files/Pods-TestCoppel/Pods-TestCoppel.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFBA722428773B48009D1F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E8D8B1C79CEAD0219DAEA /* Pods_TestCoppel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73FA96153A431016A23C5B0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				113F1F71FA04DFD663FB2474 /* Pods_TestCoppel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A786181DF9A6E45D5A665094 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7329207C592A2BEA093D8A19 /* Pods-TestCoppel.debug.xcconfig */,
+				E2B74C8EC1F3A27F8722AB46 /* Pods-TestCoppel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CFBA721E28773B48009D1F3B = {
+			isa = PBXGroup;
+			children = (
+				CFBA722928773B48009D1F3B /* TestCoppel */,
+				CFBA722828773B48009D1F3B /* Products */,
+				A786181DF9A6E45D5A665094 /* Pods */,
+				73FA96153A431016A23C5B0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBA722828773B48009D1F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA722728773B48009D1F3B /* TestCoppel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFBA722928773B48009D1F3B /* TestCoppel */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA723E28773D3E009D1F3B /* GoogleService-Info.plist */,
+				CFBA722A28773B48009D1F3B /* AppDelegate.swift */,
+				CFBA722C28773B48009D1F3B /* SceneDelegate.swift */,
+				CFBA722E28773B48009D1F3B /* LoginViewController.swift */,
+				CFBA723028773B48009D1F3B /* Main.storyboard */,
+				CFBA723328773B4A009D1F3B /* Assets.xcassets */,
+				CFBA723528773B4A009D1F3B /* LaunchScreen.storyboard */,
+				CFBA723828773B4A009D1F3B /* Info.plist */,
+				CFBA7240287745A0009D1F3B /* Servicio.swift */,
+				CFBA7242287745AA009D1F3B /* Model.swift */,
+				CFBA724428774648009D1F3B /* SignUpViewController.swift */,
+				CFBA724828774BBD009D1F3B /* PopularViewController.swift */,
+				CFBA724C28774C6E009D1F3B /* PopularViewCell.swift */,
+				CFBA724E2877548C009D1F3B /* DetailPopularVC.swift */,
+				CFBA727128777FEF009D1F3B /* PerfilVC.swift */,
+				CFBA727328778025009D1F3B /* PerfilDetailViewCell.swift */,
+				CFBA7279287792ED009D1F3B /* ModelTop.swift */,
+			);
+			path = TestCoppel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFBA722628773B48009D1F3B /* TestCoppel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBA723B28773B4A009D1F3B /* Build configuration list for PBXNativeTarget "TestCoppel" */;
+			buildPhases = (
+				3665B39D4A4CB04E19E3805F /* [CP] Check Pods Manifest.lock */,
+				CFBA722328773B48009D1F3B /* Sources */,
+				CFBA722428773B48009D1F3B /* Frameworks */,
+				CFBA722528773B48009D1F3B /* Resources */,
+				D9E365847C09BC570E0E78FE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCoppel;
+			productName = TestCoppel;
+			productReference = CFBA722728773B48009D1F3B /* TestCoppel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFBA721F28773B48009D1F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CFBA722628773B48009D1F3B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CFBA722228773B48009D1F3B /* Build configuration list for PBXProject "TestCoppel" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFBA721E28773B48009D1F3B;
+			productRefGroup = CFBA722828773B48009D1F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFBA722628773B48009D1F3B /* TestCoppel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFBA722528773B48009D1F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBA723728773B4A009D1F3B /* LaunchScreen.storyboard in Resources */,
+				CFBA723F28773D3E009D1F3B /* GoogleService-Info.plist in Resources */,
+				CFBA723428773B4A009D1F3B /* Assets.xcassets in Resources */,
+				CFBA723228773B48009D1F3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3665B39D4A4CB04E19E3805F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCoppel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E365847C09BC570E0E78FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCoppel/Pods-TestCoppel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCoppel/Pods-TestCoppel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestCoppel/Pods-TestCoppel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFBA722328773B48009D1F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBA724528774648009D1F3B /* SignUpViewController.swift in Sources */,
+				CFBA727428778025009D1F3B /* PerfilDetailViewCell.swift in Sources */,
+				CFBA7243287745AA009D1F3B /* Model.swift in Sources */,
+				CFBA722F28773B48009D1F3B /* LoginViewController.swift in Sources */,
+				CFBA7241287745A0009D1F3B /* Servicio.swift in Sources */,
+				CFBA727A287792ED009D1F3B /* ModelTop.swift in Sources */,
+				CFBA724928774BBD009D1F3B /* PopularViewController.swift in Sources */,
+				CFBA722B28773B48009D1F3B /* AppDelegate.swift in Sources */,
+				CFBA727228777FEF009D1F3B /* PerfilVC.swift in Sources */,
+				CFBA724F2877548C009D1F3B /* DetailPopularVC.swift in Sources */,
+				CFBA724D28774C6E009D1F3B /* PopularViewCell.swift in Sources */,
+				CFBA722D28773B48009D1F3B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFBA723028773B48009D1F3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBA723128773B48009D1F3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFBA723528773B4A009D1F3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBA723628773B4A009D1F3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFBA723928773B4A009D1F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFBA723A28773B4A009D1F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFBA723C28773B4A009D1F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7329207C592A2BEA093D8A19 /* Pods-TestCoppel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G82XMHQM7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestCoppel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katy.prueba.TestCoppel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFBA723D28773B4A009D1F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B74C8EC1F3A27F8722AB46 /* Pods-TestCoppel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G82XMHQM7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestCoppel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katy.prueba.TestCoppel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFBA722228773B48009D1F3B /* Build configuration list for PBXProject "TestCoppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBA723928773B4A009D1F3B /* Debug */,
+				CFBA723A28773B4A009D1F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBA723B28773B4A009D1F3B /* Build configuration list for PBXNativeTarget "TestCoppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBA723C28773B4A009D1F3B /* Debug */,
+				CFBA723D28773B4A009D1F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFBA721F28773B48009D1F3B /* Project object */;
+}
